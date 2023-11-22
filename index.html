@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Mi Librería</h1>
+
+        <div class="libro">
+            <h2>Libro 1</h2>
+            <p>Género: Comedia</p>
+            <p>Autor: Pablo</p>
+            <p>Leído: No</p>
+            <p>Fecha de Lectura: No leído</p>
+            <button onclick="marcarComoLeido(0)">Marcar como Leído</button>
+        </div>
+
+        <div class="libro">
+            <h2>Libro 2</h2>
+            <p>Género: Terror</p>
+            <p>Autor: Jorge</p>
+            <p>Leído: No</p>
+            <p>Fecha de Lectura: No leído</p>
+            <button onclick="marcarComoLeido(1)">Marcar como Leído</button>
+        </div>
+
+        <div class="libro">
+            <h2>Libro 3</h2>
+            <p>Género: Ficción</p>
+            <p>Autor: José</p>
+            <p>Leído: No</p>
+            <p>Fecha de Lectura: No leído</p>
+            <button onclick="marcarComoLeido(2)">Marcar como Leído</button>
+        </div>
+
+        <table id="tablaLibrosLeidos" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Género</th>
+                    <th>Autor</th>
+                    <th>Fecha de Lectura</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
